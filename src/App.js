@@ -1,9 +1,9 @@
-import HomePage from "./HomePage.js";
+import Home from "./pages/Home.js";
 
 function App()
 {
       return (
-            <HomePage />
+            <Home />
       );
 }
 

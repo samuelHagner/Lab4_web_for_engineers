@@ -9,31 +9,31 @@ class Projects extends Component
                         <nav id="nav">
 
                               <div id="navlogo">
-                                    <a href="index.html"><img src="media/logoKdesign.png" alt="Logga för Kdesign"></a>
+                                    <a href="index.html"><img src="media/logoKdesign.png" alt="Logga för Kdesign" /></a>
                               </div>
 
-                              <div class="hamburger">
-                                    <div class="line1"></div>
-                                    <div class="line2"></div>
-                                    <div class="line3"></div>
+                              <div className="hamburger">
+                                    <div className="line1"></div>
+                                    <div className="line2"></div>
+                                    <div className="line3"></div>
                               </div>
 
 
-                              <div class="nav-links">
-                                    <div class="dropdown">
-                                          <div class="dropbtn"><a href="services.html">TJÄNSTER &emsp;</a></div>
+                              <div className="nav-links">
+                                    <div className="dropdown">
+                                          <div className="dropbtn"><a href="services.html">TJÄNSTER &emsp;</a></div>
                                     </div>
 
-                                    <div class="dropdown">
-                                          <div class="dropbtn"><a href="projects.html">PROJEKT&emsp;</a></div>
+                                    <div className="dropdown">
+                                          <div className="dropbtn"><a href="projects.html">PROJEKT&emsp;</a></div>
                                     </div>
 
-                                    <div class="dropdown">
-                                          <div class="dropbtn"><a href="contact.html">KONTAKT&emsp;</a></div>
+                                    <div className="dropdown">
+                                          <div className="dropbtn"><a href="contact.html">KONTAKT&emsp;</a></div>
                                     </div>
 
-                                    <div class="dropdown">
-                                          <div class="dropbtn"><a href="about.html">OM OSS&emsp;</a></div>
+                                    <div className="dropdown">
+                                          <div className="dropbtn"><a href="about.html">OM OSS&emsp;</a></div>
                                     </div>
                               </div>
 
@@ -45,8 +45,8 @@ class Projects extends Component
 
 
                         <header id="header">
-                              <video id="headermovie" autoplay muted loop>
-                                    <source src="media/introMovie.mp4" type="video/mp4">
+                              <video id="headermovie" autoPlay muted loop>
+                                    <source src="media/introMovie.mp4" type="video/mp4" />
                               </video>
                         </header>
 
@@ -55,106 +55,106 @@ class Projects extends Component
                               </div>
 
                               <div id="pageName">
-                                    <p>Den mindre webbyrån som är verksamhet i större delen <br>av norrland. Vi löser dina problem, med kvalité.</p>
+                                    <p>Den mindre webbyrån som är verksamhet i större delen <br />av norrland. Vi löser dina problem, med kvalité.</p>
 
                                     <button id="contactBtn" type="button" name="booknow">Kontakta oss</button>
 
-                                    <img id="waveTop" src="svg/waves.svg" alt="vågor">
+                                    <img id="waveTop" src="svg/waves.svg" alt="vågor" />
                               </div>
 
 
 
 
-                              <div class="mainHeaderText">
+                              <div className="mainHeaderText">
                                     <h1>Vi har gjort allt, och lite därtill</h1>
-                                    Att bygga en unik och prestandafokuserad hemsida med ett skräddarsytt utseende, <br> med funktioner som är anpassande för ditt exakta ändamål utan <br>några kompromisser, som alltid funkar dygnets alla timmar. <br>Det är vad vi på Kdesign levererar.
+                                    Att bygga en unik och prestandafokuserad hemsida med ett skräddarsytt utseende, <br /> med funktioner som är anpassande för ditt exakta ändamål utan <br />några kompromisser, som alltid funkar dygnets alla timmar. <br />Det är vad vi på Kdesign levererar.
                               </div>
 
-                              <div class="textMobile">
+                              <div className="textMobile">
                                     <h2>Webbutveckling</h2>
-                                    <div class="span">
+                                    <div className="span">
                                           Vårt företag specialiserar sig på webbutveckling, där vi tar hand om uppdrag från kunder för att skapa skräddarsydda webblösningar. Vi fokuserar på att förstå våra kunders behov och visioner, och omvandlar dessa insikter till en detaljerad kravspecifikation. Detta är avgörande för att säkerställa att den slutliga webbplatsen eller applikationen inte bara möter, utan överträffar kundens förväntningar.
-                                          <br><br>
+                                          <br /><br />
                                           Utvecklingsprocessen börjar med en noggrann planering och designfas, där vi utformar användargränssnitt och användarupplevelser som är både intuitiva och engagerande. Vi använder oss av de senaste teknologierna och ramverken för att bygga responsiva och tillgängliga webbplatser som fungerar på alla enheter och plattformar.
-                                          <br><br>
+                                          <br /><br />
                                           Kvalitet är kärnan i vårt arbete, och vi strävar efter att leverera lösningar som inte bara är estetiskt tilltalande, utan också robusta, säkra och skalbara. Vi är stolta över vår förmåga att leverera projekt i tid och inom budget, vilket har hjälpt oss att bygga långvariga relationer med våra kunder.
                                     </div>
                               </div>
 
-                              <div class="textMobile">
+                              <div className="textMobile">
                                     <h2>Webbhotell & domännamn</h2>
-                                    <div class="span">
+                                    <div className="span">
                                           Vi är experter på webbhotell och domännamn och samarbetar med Loopia för att erbjuda dig de snabbaste och mest pålitliga domänservrarna på marknaden, till ett konkurrenskraftigt pris.
-                                          <br><br>
+                                          <br /><br />
                                           Vi tar hand om allt som rör ditt domännamn och webbhotell så att du kan fokusera på att skapa innehåll till din hemsida. Vi vet att det kan vara knepigt att navigera i den digitala världen, men vi finns här för att göra det enklare för dig.
-                                          <br><br>
+                                          <br /><br />
                                           Med vår långa erfarenhet inom IT-branschen och passion för att leverera högkvalitativa lösningar, kan du vara säker på att vi finns här för att hjälpa dig. Vi vill att du ska känna dig välkommen och bekväm när du väljer oss som din leverantör av webbhotell och domännamn.
-                                          <br><br>
+                                          <br /><br />
                                           Tveka inte att höra av dig om du har några frågor eller vill ha hjälp att skapa din online-närvaro. Vi ser fram emot att höra från dig och att hjälpa dig att ta dina första steg på nätet.
                                     </div>
                               </div>
 
-                              <div class="textMobile">
+                              <div className="textMobile">
                                    <h2>Webbhotell & domännamn</h2>
-                                   <div class="span">
+                                   <div className="span">
                                           Vi är experter på webbhotell och domännamn och samarbetar med Loopia för att erbjuda dig de snabbaste och mest pålitliga domänservrarna på marknaden, till ett konkurrenskraftigt pris.
-                                          <br><br>
+                                          <br /><br />
                                           Vi tar hand om allt som rör ditt domännamn och webbhotell så att du kan fokusera på att skapa innehåll till din hemsida. Vi vet att det kan vara knepigt att navigera i den digitala världen, men vi finns här för att göra det enklare för dig.
-                                          <br><br>
+                                          <br /><br />
                                           Med vår långa erfarenhet inom IT-branschen och passion för att leverera högkvalitativa lösningar, kan du vara säker på att vi finns här för att hjälpa dig. Vi vill att du ska känna dig välkommen och bekväm när du väljer oss som din leverantör av webbhotell och domännamn.
-                                          <br><br>
+                                          <br /><br />
                                           Tveka inte att höra av dig om du har några frågor eller vill ha hjälp att skapa din online-närvaro. Vi ser fram emot att höra från dig och att hjälpa dig att ta dina första steg på nätet.
                                    </div>
                               </div>
 
-                              <div class="mainGallery">
-                                    <div class="wrapText">
+                              <div className="mainGallery">
+                                    <div className="wrapText">
                                           <h2>Kalles helservice - Webbsida</h2>
-                                          <div class="span">
+                                          <div className="span">
                                                 Kalles Helservice, ett växande företag inom hemservicebranschen, tilldelade oss uppdraget att skapa en ny webbsida. Målet var att skapa en modern, användarvänlig plattform som reflekterar företagets breda utbud av tjänster, från trädgårdsarbete till hemstädning.
-                                                <br><br>
+                                                <br /><br />
                                                 Vi skulle utforma en sida med ett intuitivt gränssnitt, optimerad för sökmotorer och anpassad för alla typer av enheter. Projektet inkluderade även integration av en onlinebokningstjänst, vilket skulle göra det enklare för kunder att boka tjänster direkt på webbsidan. Genom att kombinera estetisk design med funktionell teknik, syftade projektet till att inte bara locka nya kunder utan också förbättra den övergripande kundupplevelsen. Slutresultatet förväntades stärka Kalles Helservices varumärke och främja företagets tillväxt i en konkurrensutsatt marknad.
                                           </div>
                                     </div>
-                                    <div class="wrapImg"></div>
+                                    <div className="wrapImg"></div>
                               </div>
 
-                              <div class="mainGallery">
-                                    <div class="wrapImg2"></div>
+                              <div className="mainGallery">
+                                    <div className="wrapImg2"></div>
 
-                                    <div class="wrapText">
+                                    <div className="wrapText">
                                           <h2>Arbetsförmedlingen - Digital identitetsanalys</h2>
-                                          <div class="span">
+                                          <div className="span">
                                                 Vi fick uppdraget att utveckla en "Digital identitetsanalys" för Arbetsförmedlingen, med målet att förbättra myndighetens digitala närvaro och interaktion med användarna.
                                                 Uppdraget innefattade en omfattande granskning av Arbetsförmedlingens nuvarande digitala identitet, inklusive webbplatsens användarupplevelse, sociala medieprofiler och online-tjänster.
-                                                <br><br>
+                                                <br /><br />
                                                 Genom att använda avancerade analytiska verktyg och metodiker planerade byrån att identifiera styrkor, svagheter, möjligheter och hot i den digitala strategin. Slutresultatet skulle bli en detaljerad rapport med rekommendationer för förbättringar, riktade insatser för att öka användarengagemanget och strategier för att stärka Arbetsförmedlingens varumärke online. Detta strategiska arbete avsåg att säkerställa att Arbetsförmedlingen står väl rustad att möta framtidens utmaningar i den digitala världen.
                                           </div>
 
                                     </div>
                               </div>
 
-                              <div class="mainGallery">
-                                    <div class="wrapText">
+                              <div className="mainGallery">
+                                    <div className="wrapText">
                                           <h2>The New York Press - Webbsida</h2>
-                                          <div class="span">
+                                          <div className="span">
                                                 Målet var att erbjuda läsarna en förbättrad digital upplevelse som speglar tidningens journalistiska kvalitet och arv.
                                                 Projektet fokuserade på att designa en användarvänlig plattform med intuitiv navigering, snabb laddningstid och responsiv design för olika enheter.
-                                                <br><br>
+                                                <br /><br />
                                                 Webbsidan skulle också integrera avancerade funktioner som anpassad innehållsrekommendation, interaktiva multimediaelement och säkra prenumerationstjänster.
                                                 Genom att optimera webbplatsens SEO-strategi och sociala medieintegrationer, syftade projektet till att öka trafiken och engagemanget bland läsare.
-                                                <br><br>
+                                                <br /><br />
                                                 Slutresultatet blev en webbsida som inte bara förnyade The New York Press digitala närvaro utan också stärkte dess position som en ledande nyhetskälla online.
                                           </div>
                                     </div>
 
-                                    <div class="wrapImg3"></div>
+                                    <div className="wrapImg3"></div>
                               </div>
 
                               <footer>
-                                    <div class="container">
-                                          <div class="row">
-                                                <div class="footer-col">
+                                    <div className="container">
+                                          <div className="row">
+                                                <div className="footer-col">
                                                       <h4>Om företaget</h4>
                                                       <ul>
                                                             <li><a href="about.html">Om oss</a></li>
@@ -163,7 +163,7 @@ class Projects extends Component
                                                             <li><a href="#">Hitta oss</a></li>
                                                       </ul>
                                                 </div>
-                                                <div class="footer-col">
+                                                <div className="footer-col">
                                                       <h4>Kontakta oss</h4>
                                                       <ul>
                                                             <li><a href="mailto:info@kdesign.se">info@kdesign.se</a></li>
@@ -172,7 +172,7 @@ class Projects extends Component
                                                             <li><a href="https://www.google.se/maps/place/Hotell+N%C3%A4mforsen/@63.441565,16.8979808,17z/data=!3m1!4b1!4m8!3m7!1s0x467ace7db3537c27:0xf2b6f231098f9cb3!5m2!4m1!1i2!8m2!3d63.4415626!4d16.9001695">91132 Vännäs</a></li>
                                                       </ul>
                                                 </div>
-                                                <div class="footer-col">
+                                                <div className="footer-col">
                                                       <h4>Kolla in</h4>
                                                       <ul>
                                                             <li><a href="table.html">Tabell</a></li>
@@ -181,13 +181,13 @@ class Projects extends Component
                                                             <li><a href="#">Data Protection</a></li>
                                                       </ul>
                                                 </div>
-                                                <div class="footer-col">
+                                                <div className="footer-col">
                                                       <h4>Följ oss</h4>
-                                                      <div class="social-links">
-                                                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                                            <a href="#"><i class="fab fa-twitter"></i></a>
-                                                            <a href="#"><i class="fab fa-instagram"></i></a>
-                                                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                                      <div className="social-links">
+                                                            <a href="#"><i className="fab fa-facebook-f"></i></a>
+                                                            <a href="#"><i className="fab fa-twitter"></i></a>
+                                                            <a href="#"><i className="fab fa-instagram"></i></a>
+                                                            <a href="#"><i className="fab fa-linkedin-in"></i></a>
                                                       </div>
                                                 </div>
                                           </div>
