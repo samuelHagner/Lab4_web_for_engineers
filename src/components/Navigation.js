@@ -1,9 +1,11 @@
+import { Link } from "react-router-dom";
+
 function Navigation()
 {
       return (
             <nav id="nav">
                   <div id="navlogo">
-                        <a href="index.html"><img src="media/logoKdesign.png" alt="" /></a>
+                        <Link to="/"><img src="media/logoKdesign.png" alt="" /></Link>
                   </div>
 
                   <div className="hamburger">
@@ -14,19 +16,19 @@ function Navigation()
 
                   <div className="nav-links">
                         <div className="dropdown">
-                              <div className="dropbtn"><a href="services.html">TJÄNSTER &emsp;</a></div>
+                              <div className="dropbtn"><Link to="/services">TJÄNSTER &emsp;</Link></div>
                         </div>
 
                         <div className="dropdown">
-                              <div className="dropbtn"><a href="projects.html">PROJEKT&emsp;</a></div>
+                              <div className="dropbtn"><Link to="/projects">PROJEKT&emsp;</Link></div>
                         </div>
 
                         <div className="dropdown">
-                              <div className="dropbtn"><a href="contact.html">KONTAKT&emsp;</a></div>
+                              <div className="dropbtn"><Link to="/contact">KONTAKT&emsp;</Link></div>
                         </div>
 
                         <div className="dropdown">
-                              <div className="dropbtn"><a href="about.html">OM OSS&emsp;</a></div>
+                              <div className="dropbtn"><Link to="/about">OM OSS&emsp;</Link></div>
                         </div>
                   </div>
 

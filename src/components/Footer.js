@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Footer()
 {
       return (
@@ -7,9 +9,9 @@ function Footer()
                               <div className="footer-col">
                                     <h4>Om företaget</h4>
                                     <ul>
-                                          <li><a href="about.html">Om oss</a></li>
-                                          <li><a href="services.html"> Tjänster</a></li>
-                                          <li><a href="projects.html">Projekt</a></li>
+                                          <li><Link to="/about">Om oss</Link></li>
+                                          <li><Link to="/services"> Tjänster</Link></li>
+                                          <li><Link to="/projects">Projekt</Link></li>
                                           <li><a href="#">Hitta oss</a></li>
                                     </ul>
                               </div>
@@ -25,7 +27,7 @@ function Footer()
                               <div className="footer-col">
                                     <h4>Kolla in</h4>
                                     <ul>
-                                          <li><a href="table.html">Tabell</a></li>
+                                          <li><Link to="/table">Tabell</Link></li>
                                           <li><a href="#">Projekt</a></li>
                                           <li><a href="#">Prisexempel</a></li>
                                           <li><a href="#">Data Protection</a></li>

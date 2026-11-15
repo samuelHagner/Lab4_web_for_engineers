@@ -1,4 +1,5 @@
 import { Component } from "react";
+import { Link } from "react-router-dom";
 import Navigation from "../components/Navigation.js";
 import Header from "../components/Header.js";
 import Footer from "../components/Footer.js";
@@ -40,7 +41,7 @@ class Services extends Component
                                             <div className="span">Har du ett företag eller planerar på att starta ett så står vi till förfogande för att lösa alla tekniska problem. </div>
                                             <div className="btn-bg bg-2">
                                                 <div className="btn btn-2">
-                                                    <a href="services.html"><button className="learnBtn">Läs mer</button></a>
+                                                    <Link to="/services"><button className="learnBtn">Läs mer</button></Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -54,7 +55,7 @@ class Services extends Component
                                             <div className="span">Vill du ha en invetering av din skog eller en snygg översiktsbild över din fastighet?</div>
                                             <div className="btn-bg bg-2">
                                                 <div className="btn btn-2">
-                                                    <a href="services.html"><button className="learnBtn">Läs mer</button></a>
+                                                    <Link to="/services"><button className="learnBtn">Läs mer</button></Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -68,7 +69,7 @@ class Services extends Component
                                             <div className="span">Vi erbjuder allt från fastighetsfotografering till privat porträttfotografering.</div>
                                             <div className="btn-bg bg-2">
                                                 <div className="btn btn-2">
-                                                    <a href="services.html"><button className="learnBtn">Läs mer</button></a>
+                                                    <Link to="/services"><button className="learnBtn">Läs mer</button></Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -177,7 +178,7 @@ class Services extends Component
                                         <br />
                                         <div className="btn-bg bg-2">
                                             <div className="btn btn-2">
-                                                <a href="projects.html"><button className="learnBtn">Läs mer</button></a>
+                                                <Link to="/projects"><button className="learnBtn">Läs mer</button></Link>
                                             </div>
                                         </div>
                                     </div>
