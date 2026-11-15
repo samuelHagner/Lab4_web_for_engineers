@@ -1,4 +1,7 @@
 import { Component } from "react";
+import Navigation from "../components/Navigation.js";
+import Header from "../components/Header.js";
+import Footer from "../components/Footer.js";
 import "../styles/style.css";
 import "../styles/styleResponsive.css";
 import "../styles/navigation.css";
@@ -10,43 +13,9 @@ class Home extends Component
       {
             return (
                   <>
-                        <nav id="nav">
-                              <div id="navlogo">
-                                    <a href="index.html"><img src="media/logoKdesign.png" alt="" /></a>
-                              </div>
+                        <Navigation />
 
-                              <div className="hamburger">
-                                    <div className="line1"></div>
-                                    <div className="line2"></div>
-                                    <div className="line3"></div>
-                              </div>
-
-                              <div className="nav-links">
-                                    <div className="dropdown">
-                                          <div className="dropbtn"><a href="services.html">TJÄNSTER &emsp;</a></div>
-                                    </div>
-
-                                    <div className="dropdown">
-                                          <div className="dropbtn"><a href="projects.html">PROJEKT&emsp;</a></div>
-                                    </div>
-
-                                    <div className="dropdown">
-                                          <div className="dropbtn"><a href="contact.html">KONTAKT&emsp;</a></div>
-                                    </div>
-
-                                    <div className="dropdown">
-                                          <div className="dropbtn"><a href="about.html">OM OSS&emsp;</a></div>
-                                    </div>
-                              </div>
-
-                              <div id="lines"></div>
-                        </nav>
-
-                        <header id="header">
-                              <video id="headermovie" autoPlay muted loop>
-                                    <source src="media/introMovie.mp4" type="video/mp4" />
-                              </video>
-                        </header>
+                        <Header />
 
                               <div id="pageName2">
                                     <h1>VÄLKOMMEN TILL OSS</h1>
@@ -202,48 +171,7 @@ class Home extends Component
                                     </div>
                               </div>
 
-                              <footer>
-                                    <div className="container">
-                                          <div className="row">
-                                                <div className="footer-col">
-                                                      <h4>Om företaget</h4>
-                                                      <ul>
-                                                            <li><a href="about.html">Om oss</a></li>
-                                                            <li><a href="services.html"> Tjänster</a></li>
-                                                            <li><a href="projects.html">Projekt</a></li>
-                                                            <li><a href="#">Hitta oss</a></li>
-                                                      </ul>
-                                                </div>
-                                                <div className="footer-col">
-                                                      <h4>Kontakta oss</h4>
-                                                      <ul>
-                                                            <li><a href="mailto:info@kdesign.se">info@kdesign.se</a></li>
-                                                            <li><a href="tel:15555555555">07463316123</a></li>
-                                                            <li><a href="#">Umevägen 13B</a></li>
-                                                            <li><a href="#">91132 Vännäs</a></li>
-                                                      </ul>
-                                                </div>
-                                                <div className="footer-col">
-                                                      <h4>Kolla in</h4>
-                                                      <ul>
-                                                            <li><a href="table.html">Tabell</a></li>
-                                                            <li><a href="#">Projekt</a></li>
-                                                            <li><a href="#">Prisexempel</a></li>
-                                                            <li><a href="#">Data Protection</a></li>
-                                                      </ul>
-                                                </div>
-                                                <div className="footer-col">
-                                                      <h4>Följ oss</h4>
-                                                      <div className="social-links">
-                                                            <a href="#"><i className="fab fa-facebook-f"></i></a>
-                                                            <a href="#"><i className="fab fa-twitter"></i></a>
-                                                            <a href="#"><i className="fab fa-instagram"></i></a>
-                                                            <a href="#"><i className="fab fa-linkedin-in"></i></a>
-                                                      </div>
-                                                </div>
-                                          </div>
-                                    </div>
-                              </footer>
+                              <Footer />
                   </>
             );
       }
