@@ -172,6 +172,39 @@
 			<div class="wrapImg3"></div>
 		</div>
 
+		<div id="like"></div>
+
+		<script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+		<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+		<script>
+			function LikeButton()
+			{
+				const [liked, setLiked] = React.useState(false);
+				let label;
+
+				if (liked)
+				{
+					label = "Tack!";
+				}
+				else
+				{
+					label = "Gilla";
+				}
+
+				return React.createElement(
+					"button",
+					{
+						className: "likeBtn",
+						type: "button",
+						onClick: function () { setLiked(true); }
+					},
+					label
+				);
+			}
+
+			ReactDOM.createRoot(document.getElementById("like")).render(React.createElement(LikeButton));
+		</script>
+
 		<footer>
 			<div class="container">
 				<div class="row">
