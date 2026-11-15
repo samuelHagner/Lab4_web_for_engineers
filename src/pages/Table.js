@@ -1,4 +1,8 @@
 import { Component } from "react";
+import "../styles/style.css";
+import "../styles/styleResponsive.css";
+import "../styles/navigation.css";
+import "../styles/styleForm.css";
 
 class Table extends Component
 {

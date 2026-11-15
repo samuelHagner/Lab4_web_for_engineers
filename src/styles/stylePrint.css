@@ -1,0 +1,29 @@
+@media print
+{
+      body, header, footer, aside, nav, article, section
+      {
+            background: none !important;
+            color: black;
+      }
+
+      #nav, #header, img, footer
+      {
+            display: none !important;
+      }
+
+      body, h1, h2, h3, h4, h5, h6
+      {
+            font-family: Times, "Times New Roman", serif;
+            font-size: 12pt;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            page-break-after: avoid;
+      }
+
+      a[href]:after
+      {
+            content: " (" attr(href) ")";
+            font-size: 10pt;
+      }
+}
