@@ -864,3 +864,22 @@ footer
   border: 1px solid black;
   text-align: center;
 }
+
+.likeBtn
+{
+      font-family: 'Broadsheet LDO', sans-serif;
+      padding: 20px;
+      margin-top: 20px;
+      border: 2px solid black;
+      color: black;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      cursor: pointer;
+}
+
+.likeBtn:hover
+{
+      background: #a81b2a;
+      border-color: #a81b2a;
+      color: white;
+}

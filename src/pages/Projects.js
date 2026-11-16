@@ -2,6 +2,7 @@ import { Component } from "react";
 import Navigation from "../components/Navigation.js";
 import Header from "../components/Header.js";
 import Footer from "../components/Footer.js";
+import LikeButton from "../components/LikeButton.js";
 import "../styles/style.css";
 import "../styles/styleResponsive.css";
 import "../styles/navigation.css";
@@ -84,6 +85,7 @@ class Projects extends Component
                                                 <br /><br />
                                                 Vi skulle utforma en sida med ett intuitivt gränssnitt, optimerad för sökmotorer och anpassad för alla typer av enheter. Projektet inkluderade även integration av en onlinebokningstjänst, vilket skulle göra det enklare för kunder att boka tjänster direkt på webbsidan. Genom att kombinera estetisk design med funktionell teknik, syftade projektet till att inte bara locka nya kunder utan också förbättra den övergripande kundupplevelsen. Slutresultatet förväntades stärka Kalles Helservices varumärke och främja företagets tillväxt i en konkurrensutsatt marknad.
                                           </div>
+                                          <LikeButton project="Kalles helservice" />
                                     </div>
                                     <div className="wrapImg"></div>
                               </div>
@@ -99,6 +101,7 @@ class Projects extends Component
                                                 <br /><br />
                                                 Genom att använda avancerade analytiska verktyg och metodiker planerade byrån att identifiera styrkor, svagheter, möjligheter och hot i den digitala strategin. Slutresultatet skulle bli en detaljerad rapport med rekommendationer för förbättringar, riktade insatser för att öka användarengagemanget och strategier för att stärka Arbetsförmedlingens varumärke online. Detta strategiska arbete avsåg att säkerställa att Arbetsförmedlingen står väl rustad att möta framtidens utmaningar i den digitala världen.
                                           </div>
+                                          <LikeButton project="Arbetsförmedlingen" />
 
                                     </div>
                               </div>
@@ -115,6 +118,7 @@ class Projects extends Component
                                                 <br /><br />
                                                 Slutresultatet blev en webbsida som inte bara förnyade The New York Press digitala närvaro utan också stärkte dess position som en ledande nyhetskälla online.
                                           </div>
+                                          <LikeButton project="The New York Press" />
                                     </div>
 
                                     <div className="wrapImg3"></div>
